@@ -41,6 +41,7 @@ namespace Ödev1
             kurs2.KursİzlenmeOranı = 67;
 
 
+
             EgitimKursu[] TümKurslar = new EgitimKursu[] {kurs1,kurs2 };
 
             foreach (var kurs in TümKurslar)
