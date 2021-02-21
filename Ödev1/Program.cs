@@ -44,6 +44,7 @@ namespace Ödev1
 
             EgitimKursu[] TümKurslar = new EgitimKursu[] {kurs1,kurs2 };
 
+
             foreach (var kurs in TümKurslar)
             {
                 Console.WriteLine(kurs.KursunAdi+"  -- "+kurs.KursunEgitmeni+"  %"+kurs.KursİzlenmeOranı);
