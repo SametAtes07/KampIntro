@@ -25,7 +25,7 @@ namespace ClasslaraGiris
             kurs3.KursunAdi = "Valorant Nasıl oynanır ";
             kurs3.KursunEgitmeni = "Marul ";
             kurs3.İzlenmeOranı = 86;
-
+            Console.WriteLine("aa");
 
             Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3 };
 
