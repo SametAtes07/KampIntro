@@ -28,16 +28,27 @@ namespace Methotlar
                 Console.WriteLine(urun.Fiyati);
                 Console.WriteLine(urun.Aciklama);
                 Console.WriteLine("--------------------------");
-
-                Console.WriteLine("  ");
-
-
+         
 
                 
             }
-            
-            
-          
+
+            Console.WriteLine("-------------Metotlar-------------");
+
+            //İnstance
+            //encapsulation
+
+            SepetManager sepetManager = new SepetManager();
+            sepetManager.Ekle(urun1);
+            sepetManager.Ekle(urun2);
+
+            Console.WriteLine("----------------------------------");
+
+            sepetManager.Ekle2("Armut", "Yeşil armut", 12);
+
+
+
+
         }
     }
 }
