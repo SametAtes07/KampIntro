@@ -49,7 +49,9 @@ namespace Ödev1
                 Console.WriteLine(kurs.KursunAdi+"  -- "+kurs.KursunEgitmeni+"  %"+kurs.KursİzlenmeOranı);
             }
 
-           
+          
+
+
         }
     }
 }
