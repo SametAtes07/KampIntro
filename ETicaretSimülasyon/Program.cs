@@ -56,6 +56,7 @@ namespace ETicaretSimülasyon
                 Console.WriteLine(urunler[i].UrunMarka + "   --  " + urunler[i].UrunAd +"  -- " + urunler[i].UrunAcıklama +"  --  "+ urunler[i].UrunFiyat );
 
 
+
             }
 
 
