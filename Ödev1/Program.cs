@@ -41,7 +41,6 @@ namespace Ödev1
             kurs2.KursİzlenmeOranı = 67;
 
 
-
             EgitimKursu[] TümKurslar = new EgitimKursu[] {kurs1,kurs2 };
 
 
@@ -50,9 +49,7 @@ namespace Ödev1
                 Console.WriteLine(kurs.KursunAdi+"  -- "+kurs.KursunEgitmeni+"  %"+kurs.KursİzlenmeOranı);
             }
 
-            
-
-
+           
         }
     }
 }

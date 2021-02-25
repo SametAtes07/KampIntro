@@ -28,9 +28,7 @@ namespace Methotlar
                 Console.WriteLine(urun.Fiyati);
                 Console.WriteLine(urun.Aciklama);
                 Console.WriteLine("--------------------------");
-         
-
-                
+                    
             }
 
             Console.WriteLine("-------------Metotlar-------------");
@@ -45,8 +43,6 @@ namespace Methotlar
             Console.WriteLine("----------------------------------");
 
             sepetManager.Ekle2("Armut", "Yeşil armut", 12);
-
-
 
 
         }
