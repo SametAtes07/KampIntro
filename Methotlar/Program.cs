@@ -44,7 +44,6 @@ namespace Methotlar
 
             sepetManager.Ekle2("Armut", "Yeşil armut", 12);
 
-
         }
     }
 }
